@@ -1,0 +1,74 @@
+{
+  "id": "legendary-luminaries",
+  "title": "Legendary Luminaries",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Dustin Voss",
+      "discord": "Aclethos"
+    },
+    {
+      "name": "Matthew C. Ninness",
+      "discord": "tabletop.obscura"
+    },
+    {
+      "name": "Dan Hutton",
+      "discord": "dantalkygamer"
+    },
+    {
+      "name": "Shawn Pommier",
+      "discord": "eldritchdream"
+    },
+    {
+      "name": "Simon Hunter",
+      "discord": "simon.the.hunter"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "legendary-luminaries-actions",
+      "label": "Legendary Luminaries - Actions",
+      "path": "packs/legendary-luminaries-actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "legendary-luminaries-archetypes",
+      "label": "Legendary Luminaries - Archetypes",
+      "path": "packs/legendary-luminaries-archetypes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "packFolders":[
+    {
+      "name": "Legendary Luminaries",
+    "sorting": "m",
+    "color": "#974ADC",
+    "packs": [
+      "legendary-luminaries-actions",
+      "legendary-luminaries-archetypes"
+    ]
+    }
+  ]
+}
