@@ -2,6 +2,9 @@
   "id": "forgotten-ancestries",
   "title": "Forgotten Ancestries",
   "version": "1.0.0",
+   "url": "https://github.com/aclethos/Forgotten-Ancestries-Mesians",
+  "download": "https://github.com/aclethos/Forgotten-Ancestries-Mesians/archive/refs/heads/master.zip",
+  "manifest": "https://raw.githubusercontent.com/aclethos/Forgotten-Ancestries-Mesians/master/module.json",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
