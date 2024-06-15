@@ -6,7 +6,7 @@
   "download": "https://github.com/aclethos/Forgotten-Ancestries-Mesians/archive/refs/heads/master.zip",
   "manifest": "https://raw.githubusercontent.com/aclethos/Forgotten-Ancestries-Mesians/master/module.json",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "11",
     "verified": "12"
   },
   "relationships": {
