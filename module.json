@@ -1,0 +1,100 @@
+{
+  "id": "forgotten-ancestries",
+  "title": "Forgotten Ancestries",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "SokinAshrah",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "mesians",
+      "label": "Mesian",
+      "path": "packs/mesians",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mesian-feats",
+      "label": "Mesian Feats",
+      "path": "packs/mesian-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mesian-actions",
+      "label": "Mesian Actions",
+      "path": "packs/mesian-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mesian-items",
+      "label": "Mesian Items",
+      "path": "packs/mesian-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "mesian-deities",
+      "label": "Mesian Deities",
+      "path": "packs/mesian-deities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+   "flags": {
+  "forgotten-ancestries": {
+    "pf2e-homebrew": {
+      "featTraits": {
+        "mesian": "Mesian"
+      },
+      "weaponTraits": {
+        "mesian": {
+          "label": "Mesian",
+          "description": "A creature with this trait is a member of the mesian ancestry. An ability with this trait can be used or selected only by mesians. A weapon with this trait is created and used by mesians."
+        },
+        "hemorrhaging": {
+          "label": "Hemorrhaging",
+          "description": "This weapon has a rigid strike that inflicts mass bleeding if the same area is struck repeatedly."
+        }
+      }
+    }
+  }
+}
+}
